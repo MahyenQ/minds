@@ -1,0 +1,265 @@
+body {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: url(../img/banner-2.jpg) no-repeat center/cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.welcome {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.textsection {
+    width: 50%;
+}
+
+.imagen {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textsection h2 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.textsection p {
+    font-size: 2em;
+    line-height: 1.5;
+    margin-left: 20%;
+}
+
+.imagen img { /*la imagen de Design & Tec*/
+    max-width: 100%;
+}
+
+.green-section {
+    background: #34e9a7;
+    color: black;
+    text-align: center;
+    font-size: 3em; /*el encabezado*/
+    margin: 0;
+    padding: 5px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 250px;
+    margin: 10px;
+}
+
+.imagentexto {
+    position: relative;
+    width: 290px; /*espacio entre las imagenes*/
+    height: 350px; 
+    margin: 10px;
+}
+
+.textoencima { 
+    left: 35%;
+    font-size: 15px;
+}
+
+.white {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.textwhite {
+    width: 50%;
+}
+
+.whitesec {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textwhite h2 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.textwhite p {
+    font-size: 2em;
+    line-height: 1.5;
+    margin-left: 10%;
+    margin-right: 28%;
+}
+
+.whitesec img { /*la imagen de creativity...*/
+    max-width: 90%;
+    margin-left: 20%;
+}
+
+.lastimg {
+    display: grid; /*para que las imagenes queden en la misma linea*/
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+.lastimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.blue-section {
+    background: #3498db;
+    color: black;
+    height: 35vh;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.footer div {
+    font-size: 13px;
+    margin-right: 20%;
+}
+
+@media (max-width: 700px) {
+
+    .header {
+        width: 100%;
+        height: 200vh;
+        font-size: 2.5rem;
+        align-items: center;
+    }
+
+    .welcome {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .start {
+        flex-direction: column;
+        align-items: center;
+        height: 160vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imagen {
+        width: 80%;
+    }
+
+    .textsection {
+        width: 100%;
+    }
+
+    .textsection h2 {
+        font-size: 3em;
+        margin: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .textsection p {
+        font-size: 2em;
+        margin: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .ino {
+        font-size: 1em;
+    }
+
+    .textwhite {
+        width: 100%;
+        margin-left: 20%;
+    }
+
+    .textwhite h2 {
+        font-size: 2.5em;
+        margin-left: 5%;
+        margin-right: 20%;
+    }
+
+    .textwhite p {
+        font-size: 1.9em;
+        margin-left: 5%;
+        margin-right: 20%;
+    }
+
+    .white {
+        height: 140vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .whitesec {
+        width: 80%;
+        margin-right: 20%;
+    }
+
+    .lastimg {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blue-section {
+        height: 25vh;
+        text-align: center;
+        font-size: 2rem;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .frase {
+        margin-top: 5%;
+        margin-right: 40%;
+    }
+    
+    .mind {
+        margin-left: 20%;
+        margin-bottom: 10%;
+    }
+    
+    }
